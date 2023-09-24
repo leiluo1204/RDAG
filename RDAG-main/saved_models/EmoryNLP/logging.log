@@ -1,0 +1,3 @@
+[2022-05-22 14:53:45,978][run.py][line:112][INFO] start training on GPU 0!
+[2022-05-22 14:53:45,996][run.py][line:113][INFO] Namespace(attn_type='rgcn', batch_size=32, bert_dim=1024, bert_model_dir='', bert_tokenizer_dir='', cuda=True, dataset_name='EmoryNLP', dropout=0.3, emb_dim=1024, epochs=100, gnn_layers=2, hidden_dim=300, lr=5e-05, max_grad_norm=5.0, max_sent_len=200, mlp_layers=2, no_cuda=False, no_rel_attn=False, nodal_att_type=None, tensorboard=False, windowf=0, windowp=1)
+[2022-05-22 14:55:07,425][run.py][line:167][INFO] Epoch: 1, train_loss: 1.7735, train_acc: 56.45, train_fscore: 52.82, valid_loss: 1.7118, valid_acc: 42.63, valid_fscore: 37.44, test_loss: 1.7562, test_acc: 40.89, test_fscore: 34.78, time: 48.33 sec
